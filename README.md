@@ -47,9 +47,9 @@ It is a good development practice to create a virtual environment for each proje
   
   **Chrome**: [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/)  
   **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases) 
-
-*Note: Optionally, you can save the webdriver in any other folder, provided that the path is added to the PATH environment variable.*
-
+ 
+ 7. Change the variable **${WEBDRIVER_PATH}** in **Resources\variables.robot**, line 4, according with the file name of the webdriver.
+    
 ### Project Structure
 
 
