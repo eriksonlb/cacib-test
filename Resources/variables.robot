@@ -1,7 +1,9 @@
 *** Variables ***
 ${BROWSER}                      Chrome
 ${URL}                          http://automationexercise.com
-${WEBDRIVER_PATH}               Webdrivers/chromedriver.exe
+${WEBDRIVER_PATH}               Webdrivers/chromedriver
+${FOOTER_ELEMENT}               class=footer-widget
+
 ${PRODUCTS_NAV_BUTTON}          xpath=//a[@href='/products']
 ${SEARCH_BAR}                   name=search
 ${SEARCH_BUTTON}                id=submit_search
