@@ -13,7 +13,7 @@ To check, after this step, start the CMD or Terminal and type:
 ```
     python -V
 ```
-Note: The command ***python*** may change depending on your OS system. The expected result is:
+*Note: The command **python** may change depending on your OS system. The expected result is:*
 ```
     Python 3.10.13
 ```
@@ -46,10 +46,10 @@ It is a good development practice to create a virtual environment for each proje
   6. For each browser, it is necessary to download the corresponding webdriver for its version. To ensure the correct execution of the test, save the webdriver in the 'Webdrivers' folder.
   
   **Chrome**: [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/)  
-  **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases) 
-
-*Note: Optionally, you can save the webdriver in any other folder, provided that the path is added to the PATH environment variable.*
-
+  **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
+  
+  *Note: Any problems, check the **${WEBDRIVER_PATH}** inside the file **Resources\variables.robot** in line 4.*
+    
 ### Project Structure
 
 
