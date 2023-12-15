@@ -13,7 +13,7 @@ To check, after this step, start the CMD or Terminal and type:
 ```
     python -V
 ```
-Note: The command ***python*** may change depending on your OS system. The expected result is:
+*Note: The command **python** may change depending on your OS system. The expected result is:*
 ```
     Python 3.10.13
 ```
@@ -47,6 +47,8 @@ It is a good development practice to create a virtual environment for each proje
   
   **Chrome**: [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/)  
   **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
+  
+  *Note: Any problems, check the **${WEBDRIVER_PATH}** inside the file **Resources\variables.robot** in line 4.*
     
 ### Project Structure
 
