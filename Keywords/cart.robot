@@ -34,7 +34,7 @@ When I continue shopping
 And I add the item '${search_query}' to the cart
     And I verify if the search bar is visible
     Clear Element Text                                                      ${SEARCH_BAR}
-    And I write 'Green Side Placket Detail T-Shirt' in the search bar
+    And I write '${search_query}' in the search bar
     And I click on the 'search' button
     Then I verify that '${search_query}' is visible in the search results
     And I add the product to the cart

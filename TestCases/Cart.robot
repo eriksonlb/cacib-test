@@ -13,6 +13,7 @@ Product Purchase in Cart
     And I add the product to the cart
     When I continue shopping
     And I add the item 'Green Side Placket Detail T-Shirt' to the cart
+    And I add the item 'Men Tshirt' to the cart
     And I navigate to the Cart page
     Then I verify that the products are visible in the cart
-    And I verify that the sum of the product values in the cart is "Rs.1400"
+    And I verify that the sum of the product values in the cart is "Rs.1800"
