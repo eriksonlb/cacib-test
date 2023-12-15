@@ -1,11 +1,5 @@
 *** Settings ***
 Resource    ../Keywords/carts.robot
-Suite Setup  Setup chromedriver
-
-*** Keywords ***
-Setup chromedriver
-  Set Environment Variable  webdriver.chrome.driver  ${EXECDIR}/chromedriver.exe 
-
 
 *** Test Cases ***
 Product Purchase in Cart
