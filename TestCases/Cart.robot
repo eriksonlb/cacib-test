@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../Keywords/carts.robot
+Resource    ../Keywords/cart.robot
 
 *** Test Cases ***
 Product Purchase in Cart
