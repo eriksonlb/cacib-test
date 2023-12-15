@@ -23,7 +23,9 @@ Then I verify that '${result}' is visible in the search results
     Wait Until Page Contains    ${result}
 
 And I add the product to the cart
-    Click Link      ${ADD_CART_BUTTON}
+    # Because of the ad popup, it's necessary to scroll until footer
+    Scroll Element Into View    ${FOOTER_ELEMENT}
+    Click Link                  ${ADD_CART_BUTTON}
     
 When I continue shopping
     Wait Until Element Is Visible       ${CONTINUE_SHOPPING_BUTTON}
