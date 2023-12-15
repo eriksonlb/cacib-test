@@ -46,9 +46,7 @@ It is a good development practice to create a virtual environment for each proje
   6. For each browser, it is necessary to download the corresponding webdriver for its version. To ensure the correct execution of the test, save the webdriver in the 'Webdrivers' folder.
   
   **Chrome**: [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/)  
-  **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases) 
- 
- 7. Change the variable **${WEBDRIVER_PATH}** in **Resources\variables.robot**, line 4, according with the file name of the webdriver.
+  **Firefox**: [https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
     
 ### Project Structure
 
